@@ -35,15 +35,15 @@ h3{
 }
 
 #customerView {
-    width: 40%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
     border: 2px solid rgb(167, 125, 35);
     background-color: rgb(1, 38, 53);
 }
 
 #counterManagement {
-    width: 40%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
     border: 2px solid rgb(167, 125, 35);
     background-color: rgb(1, 38, 53);
 }
@@ -89,7 +89,7 @@ h3{
     height: 25%;
     border: 2px solid rgb(167, 125, 35);
     margin-top: 15px;
-    margin-left: 43px;
+    margin-left: 70px;
 }
 
 .cun {
@@ -138,7 +138,7 @@ h3{
     height: 70%;
     display: inline-block;
     border: 2px solid rgb(167, 125, 35);
-    margin-left: 4px;
+    margin-left: 9px;
 }
 
 .btnCM {

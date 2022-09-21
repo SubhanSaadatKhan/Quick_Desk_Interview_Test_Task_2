@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Ticketing Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <nav class="navbar bg h-nav-resp">
+        <h3>Queue Ticketing Application</h3>
+        <ul class="leftNav v-class-resp">
+            <li><a href="/">Customer View</a></li>
+            <li><a href="/countermanagement.html">Counter Management</a></li>
+        </ul>
+    </nav> -->
+    <nav class="title">
+        <h3>Queue Ticketing Application</h3>
+    </nav>
+
+    <div class="row">
+        <!-- <div class="displayTicket">
+            No Ticket to display
+        </div> -->
+        <div id="customerView">
+            <div class="upper">
+                <p class="titleCV display">Customer View</p>
+                <p class="showTN display" id="showCase"></p>
+            </div>
+
+            <div class="cont">
+                <p class="disp" id="nowServing">Now Serving: none</p>
+                <p class="disp" id="lastNumber">Last Number: none</p>
+                <button class="btn all" id="takeNumber">Take a number</button>
+            </div>
+            <div class="counters">
+                <div class="dot" id="counter1Status"></div>
+                <p class="cun">Counter 1</p>
+                <p class="currNum" id="currNum1">_ _</p>
+            </div>
+            <div class="counters">
+                <div class="dot" id="counter2Status"></div>
+                <p class="cun">Counter 2</p>
+                <p class="currNum" id="currNum2">_ _</p>
+            </div>
+            <div class="counters">
+                <div class="dot" id="counter3Status"></div>
+                <p class="cun">Counter 3</p>
+                <p class="currNum" id="currNum3">_ _</p>
+            </div>
+            <div class="counters">
+                <div class="dot" id="counter4Status"></div>
+                <p class="cun">Counter 4</p>
+                <p class="currNum" id="currNum4">_ _</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="counterManagement">
+            <p class="titleCM">Counter Management</p>
+            <div class="counterManage">
+                <p class="cun">Counter 1</p>
+                <button class="btnCM all" id="btnCounter1"></button>
+                <button class="btnCM all" id="complete1">Complete Current</button>
+                <button class="btnCM all" id="callNxt1">Call Next</button>
+            </div>
+            <div class="counterManage">
+                <!-- <div class="dot"></div> -->
+                <p class="cun">Counter 2</p>
+                <button class="btnCM all" id="btnCounter2"></button>
+                <button class="btnCM all" id="complete2">Complete Current</button>
+                <button class="btnCM all" id="callNxt2">Call Next</button>
+            </div>
+            <div class="counterManage">
+                <!-- <div class="dot"></div> -->
+                <p class="cun">Counter 3</p>
+                <button class="btnCM all" id="btnCounter3"></button>
+                <button class="btnCM all" id="complete3">Complete Current</button>
+                <button class="btnCM all" id="callNxt3">Call Next</button>
+            </div>
+            <div class="counterManage">
+                <!-- <div class="dot"></div> -->
+                <p class="cun">Counter 4</p>
+                <button class="btnCM all" id="btnCounter4"></button>
+                <button class="btnCM all" id="complete4">Complete Current</button>
+                <button class="btnCM all" id="callNxt4">Call Next</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+<script src="task2.js"></script>
+
+</html>

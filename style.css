@@ -1,0 +1,163 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    /* height: 100vh;
+    width: 100vw; */
+    /* height: 100vh; */
+    background-color: black;
+    color: yellow;
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    margin-top: -15px;
+    margin-bottom: -30px;
+    height: 42px;
+}
+
+h3{
+    color: white;
+    font-size: 24px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+#customerView {
+    width: 40%;
+    height: 80%;
+    border: 2px solid rgb(167, 125, 35);
+    background-color: rgb(1, 38, 53);
+}
+
+#counterManagement {
+    width: 40%;
+    height: 80%;
+    border: 2px solid rgb(167, 125, 35);
+    background-color: rgb(1, 38, 53);
+}
+/* #counterManagement{
+    margin-top: -20px;
+} */
+
+.titleCV {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+}
+
+.titleCM {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+}
+
+.cont {
+    width: 70%;
+    height: 42%;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.disp {
+    text-align: center;
+}
+
+.btn {
+    width: 65%;
+    height: 25%;
+    position: relative;
+    left: 16%;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.counters {
+    display: inline-block;
+    width: 15%;
+    height: 25%;
+    border: 2px solid rgb(167, 125, 35);
+    margin-top: 15px;
+    margin-left: 43px;
+}
+
+.cun {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 6px
+}
+
+.currNum {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.displayTicket {
+    border: 2px solid rgb(167, 125, 35);
+    position: relative;
+    left: 5px;
+}
+
+.display {
+    display: inline-block;
+}
+
+.upper {
+    /* border: 2px solid red; */
+    margin-bottom: 3px;
+}
+
+.showTN {
+    position: relative;
+    left: 266px;
+    font-size: 20px;
+}
+
+.dot {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.counterManage {
+    width: 23%;
+    height: 70%;
+    display: inline-block;
+    border: 2px solid rgb(167, 125, 35);
+    margin-left: 4px;
+}
+
+.btnCM {
+    width: 90%;
+    height: 20%;
+    /* margin: auto; */
+    position: relative;
+    left: 7px;
+    margin-bottom: 12px
+}
+
+.all{
+    border-radius: 10px;
+    background-color: rgb(80, 51, 51);
+    color: white;
+    border: 2px solid black;
+}
+
+.all:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
